@@ -1,28 +1,28 @@
 # 🚀 Project 99 – Multi-tenant SaaS Platform | System Design Level | Full Stack DevOps
 
-[Java 17](https://img.shields.io/badge/Java-17-E76F00?logo=openjdk&logoColor=white)
-[Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
-[Caching](https://img.shields.io/badge/Caching-Caffeine%201000%20max%20600s%20expire%20Stats-blue?logo=redis&logoColor=white)
-[Cache Stats](https://img.shields.io/badge/Cache%20Stats-recordStats%20enabled-brightgreen)
-[Security](https://img.shields.io/badge/Security-Headers%20nosniff%20DENY%20XSS-red?logo=springsecurity&logoColor=white)
-[Builder Pattern](https://img.shields.io/badge/Builder%20Pattern-TenantData.Builder%20Fluent%20API-success?logo=java&logoColor=white)
-[Strategy Pattern](https://img.shields.io/badge/Strategy%20Pattern-Tenant%20vs%20Shared%20vs%20Isolated%20vs%20Hybrid-yellow?logo=elasticsearch&logoColor=white)
-[Repository Pattern](https://img.shields.io/badge/Repository%20Pattern-JpaRepository-6DB33F)
-[H2 Database](https://img.shields.io/badge/H2-Database%20tenantdb-003545?logo=h2&logoColor=white)
-[viewCount](https://img.shields.io/badge/viewCount-Added%20%2B%20idx__tenant%20%2B%20idx__category-orange)
-[JUnit 5](https://img.shields.io/badge/JUnit-5%206%2F6%20Green-25A162?logo=junit5&logoColor=white)
-[Mockito](https://img.shields.io/badge/Mockito-Mocked%20Repo%20when%2Fverify-00BFFF)
-[Multi-tenant Pattern](https://img.shields.io/badge/Multi--tenant-Pattern%20Tenant%20Shared%20Isolated%20Hybrid-blueviolet?logo=elasticsearch&logoColor=white)
-[Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
-[Render](https://img.shields.io/badge/Render-Live%202m38s-brightgreen?logo=render&logoColor=white)
-[Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
-[Port](https://img.shields.io/badge/Port-8101-00BFFF)
-[Status](https://img.shields.io/badge/Status-Multi--tenant%20SaaS%20Live%20Tier%2010-brightgreen)
-[Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level%20SCALE-blueviolet)
+![Java 17](https://img.shields.io/badge/Java-17-E76F00?logo=openjdk&logoColor=white)
+![Spring Boot 3.2.5](https://img.shields.io/badge/Spring%20Boot-3.2.5-6DB33F?logo=springboot&logoColor=white)
+![Caching](https://img.shields.io/badge/Caching-Caffeine%201000%20max%20600s%20expire%20Stats-blue?logo=redis&logoColor=white)
+![Cache Stats](https://img.shields.io/badge/Cache%20Stats-recordStats%20enabled-brightgreen)
+![Security](https://img.shields.io/badge/Security-Headers%20nosniff%20DENY%20XSS-red?logo=springsecurity&logoColor=white)
+![Builder Pattern](https://img.shields.io/badge/Builder%20Pattern-TenantData.Builder%20Fluent%20API-success?logo=java&logoColor=white)
+![Strategy Pattern](https://img.shields.io/badge/Strategy%20Pattern-Tenant%20vs%20Shared%20vs%20Isolated%20vs%20Hybrid-yellow?logo=elasticsearch&logoColor=white)
+![Repository Pattern](https://img.shields.io/badge/Repository%20Pattern-JpaRepository-6DB33F)
+![H2 Database](https://img.shields.io/badge/H2-Database%20tenantdb-003545?logo=h2&logoColor=white)
+![viewCount](https://img.shields.io/badge/viewCount-Added%20%2B%20idx__tenant%20%2B%20idx__category-orange)
+![JUnit 5](https://img.shields.io/badge/JUnit-5%206%2F6%20Green-25A162?logo=junit5&logoColor=white)
+![Mockito](https://img.shields.io/badge/Mockito-Mocked%20Repo%20when%2Fverify-00BFFF)
+![Multi-tenant Pattern](https://img.shields.io/badge/Multi--tenant-Pattern%20Tenant%20Shared%20Isolated%20Hybrid-blueviolet?logo=elasticsearch&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Multi--Stage-2496ED?logo=docker&logoColor=white)
+![Render](https://img.shields.io/badge/Render-Live%202m38s-brightgreen?logo=render&logoColor=white)
+![Tomcat](https://img.shields.io/badge/Apache%20Tomcat-10.1.20-D4AF00?logo=apachetomcat&logoColor=white)
+![Port](https://img.shields.io/badge/Port-8101-00BFFF)
+![Status](https://img.shields.io/badge/Status-Multi--tenant%20SaaS%20Live%20Tier%2010-brightgreen)
+![Tier 10](https://img.shields.io/badge/Tier%2010-System%20Design%20Level%20SCALE-blueviolet)
 
 **Live URL:** https://nine9-multi-tenant-saas.onrender.com/
 
-[[Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine9-multi-tenant-saas.onrender.com)
+[![Live](https://img.shields.io/badge/Live-Render-brightgreen?style=for-the-badge&logo=render)](https://nine9-multi-tenant-saas.onrender.com)
 
 Project 99 - Part of Java 102 Projects Challenge - System Design Level Tier 10 SCALE
 ---
@@ -180,72 +180,72 @@ This is Project 99 of Tier 10 - SCALE - After Recommendation Engine (98), now re
 # 📸 Screenshots - 14 Demos - Multi-tenant SaaS Verified - Live on Render 2m38s
 
 ### Demo 1 – Browser - GET / - Home Live JSON - Multi-tenant SaaS Tier 10 SCALE
-[Demo1 Home](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo1.png)
+![Demo1 Home](screenshots/demo1.png)
 
 *GET http://localhost:8101/ - Browser - 200 OK - Returns {"status":"UP","service":"Multi-Tenant SaaS Platform","features":["Multi-Tenant Data Isolation","Tenant-Based Data Access","Category Search","Isolation Levels: Shared, Isolated, Hybrid","Strategy Pattern","Builder Pattern","Caffeine Cache","Security Headers"],"endpoints":{...},"live_url":"https://nine9-multi-tenant-saas.onrender.com","author":"Ravi Teja"} - Proof of Home Live - Portfolio ready - Tier 10 SCALE 99/102 - 97%*
 
 ### Demo 2 – Browser - GET /health - UP - Caching + Security + Multi-tenant Active
-[Demo2 Health](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo2.png)
+![Demo2 Health](screenshots/demo2.png)
 
 *GET http://localhost:8101/health - Browser - 200 OK - Returns {"status":"UP","database":"H2","databaseName":"tenantdb","caching":"Caffeine","cacheManager":"Caffeine","cacheSpec":"maximumSize=1000,expireAfterAccess=600s,recordStats","securityHeaders":"X-Content-Type-Options nosniff, X-Frame-Options DENY, X-XSS-Protection","patterns":["Builder","Strategy","Repository","Caching"],"features":["multi-tenancy","isolation-levels"]} - Proof of Health Endpoint - Tier 10 Health Check*
 
 ### Demo 3 – Browser - GET /api/tenant-data - Empty List - Before Create
-[Demo3 Empty List](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo3.png)
+![Demo3 Empty List](screenshots/demo3.png)
 
 *GET http://localhost:8101/api/tenant-data - Browser - 200 OK - Returns [] - Empty JSON array - Proof of List Endpoint Working - No data yet - H2 in-memory empty - Caching tenantDatas cache ready*
 
 ### Demo 4 – Postman - POST /api/tenant-data - 200 OK - id 1 - Builder Pattern + CLEAN without \n - Isolated
-[Demo4 Create Isolated](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo4.png)
+![Demo4 Create Isolated](screenshots/demo4.png)
 
 *POST http://localhost:8101/api/tenant-data?tenantId=tenant1&dataId=data1&dataName=Laptop%20Data&category=Electronics&dataValue=4.8&isolationLevel=isolated - 200 OK Time 300 ms Size 587 B - Returns id 1 tenantId tenant1 dataId data1 dataName Laptop Data category Electronics dataValue 4.8 isolationLevel isolated CLEAN without \n createdAt 2026-11-04T00:38:22.613103 value 4.8 viewCount 0 - Builder Pattern - trim() fix*
 
 ### Demo 5 – Postman - POST /api/tenant-data - 200 OK - id 2 - Shared CLEAN
-[Demo5 Create Shared](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo5.png)
+![Demo5 Create Shared](screenshots/demo5.png)
 
 *POST http://localhost:8101/api/tenant-data?tenantId=tenant1&dataId=data2&dataName=Phone%20Data&category=Electronics&dataValue=4.5&isolationLevel=shared - 200 OK Time 16 ms Size 584 B - Returns id 2 tenantId tenant1 dataId data2 dataName Phone Data category Electronics dataValue 4.5 isolationLevel shared CLEAN without \n createdAt 2026-11-04T00:39:06.6646785 value 4.5 viewCount 0*
 
 ### Demo 6 – Postman - POST /api/tenant-data - 200 OK - id 3 - Tenant2 Isolation
-[Demo6 Create Tenant2](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo6.png)
+![Demo6 Create Tenant2](screenshots/demo6.png)
 
 *POST http://localhost:8101/api/tenant-data?tenantId=tenant2&dataId=data3&dataName=Book%20Data&category=Books&dataValue=4.9&isolationLevel=isolated - 200 OK Time 19 ms Size 580 B - Returns id 3 tenantId tenant2 dataId data3 dataName Book Data category Books dataValue 4.9 isolationLevel isolated CLEAN - Tenant2 isolation proof - Multi-tenancy*
 
 ### Demo 7 – Postman - POST /api/tenant-data - 200 OK - id 4 - Hybrid CLEAN
-[Demo7 Create Hybrid](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo7.png)
+![Demo7 Create Hybrid](screenshots/demo7.png)
 
 *POST http://localhost:8101/api/tenant-data?tenantId=tenant1&dataId=data4&dataName=Tablet%20Data&category=Electronics&dataValue=4.2&isolationLevel=hybrid - 200 OK Time 22 ms Size 586 B - Returns id 4 tenantId tenant1 dataId data4 dataName Tablet Data category Electronics dataValue 4.2 isolationLevel hybrid CLEAN - Hybrid isolation*
 
 ### Demo 8 – Postman - GET /api/tenant-data - With 4 Docs - viewCount + CLEAN without \n
-[Demo8 List 4 Items](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo8.png)
+![Demo8 List 4 Items](screenshots/demo8.png)
 
 *GET http://localhost:8101/api/tenant-data - Browser - 200 OK - Returns 4 docs id 4 Tablet hybrid 4.2 + id 3 Book tenant2 isolated 4.9 + id 2 Phone shared 4.5 + id 1 Laptop isolated 4.8 - Ordered by createdAtDesc - viewCount 0 + createdAt 00:38 00:39 - Proof of List Persistence - H2 - idx_tenant + idx_category + X-Cache: Caffeine - CLEAN without \n - data_value fix*
 
 ### Demo 9 – Postman - GET /api/tenant-data/strategy/tenant1?type=tenant - Tenant count 3
-[Demo9 Tenant Strategy](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo9.png)
+![Demo9 Tenant Strategy](screenshots/demo9.png)
 
 *GET http://localhost:8101/api/tenant-data/strategy/tenant1?type=tenant - Browser - 200 OK - Returns 3 items id 1 Laptop isolated 4.8 + id 2 Phone shared 4.5 + id 4 Tablet hybrid 4.2 - Tenant isolation - tenant1 data only - CLEAN timestamps 00:38:22 00:39:06 00:39:56*
 
 ### Demo 10 – Postman - GET /api/tenant-data/strategy/tenant1?type=shared - Shared count 1
-[Demo10 Shared Strategy](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo10.png)
+![Demo10 Shared Strategy](screenshots/demo10.png)
 
 *GET http://localhost:8101/api/tenant-data/strategy/tenant1?type=shared - Browser - 200 OK - Returns 1 item id 2 Phone Data Electronics 4.5 shared - Shared-Strategy - Only shared isolation - CLEAN*
 
 ### Demo 11 – Postman - GET /api/tenant-data/strategy/tenant1?type=isolated - Isolated count 1 FIXED from [] - CRITICAL
-[Demo11 Isolated FIXED](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo11.png)
+![Demo11 Isolated FIXED](screenshots/demo11.png)
 
 *GET http://localhost:8101/api/tenant-data/strategy/tenant1?type=isolated - Browser - 200 OK - Returns 1 item id 1 Laptop Data Electronics 4.8 isolated value 4.8 - FIXED FROM [] EMPTY - CRITICAL PROOF trim() fix - Was [] empty due to isolationLevel="isolated\n" bug - Now CLEAN without \n returns 1 item - Core Tier 10 Fix - Same as 98 hybrid sorted 4.8 4.5 but for isolation - Most important demo - Proof of Bug Fix*
 
 ### Demo 12 – Postman - GET /api/tenant-data/strategy/tenant1?type=hybrid - Hybrid count 3 sorted 4.8 4.5 4.2 - Core Feature
-[Demo12 Hybrid Sorted](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo12.png)
+![Demo12 Hybrid Sorted](screenshots/demo12.png)
 
 *GET http://localhost:8101/api/tenant-data/strategy/tenant1?type=hybrid - Browser - 200 OK - Returns 3 items id 1 Laptop 4.8 isolated + id 2 Phone 4.5 shared + id 4 Tablet 4.2 hybrid - Sorted by dataValue DESC 4.8 then 4.5 then 4.2 - Hybrid-Strategy - Core Tier 10 Feature - SaaS Isolation sorted - Most important demo - Same as 98 hybrid sorted 4.8 4.5 but for multi-tenant - CLEAN timestamps 00:38:22 00:39:06 00:39:56*
 
 ### Demo 13 – Eclipse Console - JUnit Console Logs - Builder + trim() fix
-[Demo13 JUnit Console](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo13.png)
+![Demo13 JUnit Console](screenshots/demo13.png)
 
 *Eclipse Console - JUnit Console Logs - Builder Pattern Test Passed: Laptop Data + Format TenantData Test Passed: Tenant tenant1: Laptop Data (4.80) - isolated + Search Test Passed + Mockito Test Passed: getAllTenantData + TenantData Entity Test Passed + Mockito Test Passed: getTenantDataById - 6 tests console logs*
 
 ### Demo 14 – Eclipse JUnit - Green Bar - 6/6 Tests Passed - 5.798s - FIXED [] bug
-[Demo14 JUnit Green](https://github.com/raviteja-dev950/99-multi-tenant-saas/raw/main/screenshots/demo14.png)
+![Demo14 JUnit Green](screenshots/demo14.png)
 
 *Eclipse JUnit - Finished after 5.798 seconds - Runs: 6/6 Errors: 0 Failures: 0 Green Bar - TenantDataServiceTest [Runner: JUnit 5] (5.055 s) - testBuilderPattern 4.624 s + testFormatTenantDataInfo 0.102 s + testSearchByCategory_Mockito 0.143 s + testGetAllTenantData_Mockito 0.019 s + testTenantDataEntity 0.015 s + testGetTenantDataById_Mockito 0.131 s - Was 2/2 Tier 5 -> Now 6/6 Tier 10 - FIXED [] bug with trim() - 5.798s - Same as 98 6.594s*
 
