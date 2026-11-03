@@ -112,6 +112,8 @@ This is Project 99 of Tier 10 - SCALE - After Recommendation Engine (98), now re
 
 ---
 
+---
+
 # 📂 Project Structure - Multi-tenant SaaS Repo
 
 ```text
@@ -164,7 +166,8 @@ This is Project 99 of Tier 10 - SCALE - After Recommendation Engine (98), now re
 │   ├── demo11.png (GET /api/tenant-data/strategy/tenant1?type=isolated - Isolated-Strategy - Status 200 OK - Returns 1 item id 1 Laptop Data Electronics 4.8 isolated - FIXED FROM [] EMPTY - CRITICAL PROOF trim() fix - CLEAN timestamp 00:38:22)
 │   ├── demo12.png (GET /api/tenant-data/strategy/tenant1?type=hybrid - Hybrid-Strategy - Status 200 OK - Returns 3 items id 1 Laptop 4.8 isolated + id 2 Phone 4.5 shared + id 4 Tablet 4.2 hybrid - Sorted by dataValue DESC 4.8 4.5 4.2 - Core Tier 10 Feature - SaaS Isolation)
 │   ├── demo13.png (Eclipse Console - JUnit Console Logs - Builder Pattern Test Passed: Laptop Data + Format TenantData Test Passed: Tenant tenant1: Laptop Data (4.80) - isolated + Search Test Passed + Mockito Test Passed: getAllTenantData + TenantData Entity Test Passed + Mockito Test Passed: getTenantDataById)
-│   └── demo14.png (Eclipse JUnit - Finished after 5.798 seconds - Runs: 6/6 Errors: 0 Failures: 0 Green Bar - TenantDataServiceTest [Runner: JUnit 5] (5.055 s) - testBuilderPattern 4.624 s + testFormatTenantDataInfo 0.102 s + testSearchByCategory_Mockito 0.143 s + testGetAllTenantData_Mockito 0.019 s + testTenantDataEntity 0.015 s + testGetTenantDataById_Mockito 0.131 s - Was 2/2 Tier 5 -> Now 6/6 Tier 10 - FIXED [] bug)
+│   ├── demo14.png (Eclipse JUnit - Finished after 5.798 seconds - Runs: 6/6 Errors: 0 Failures: 0 Green Bar - TenantDataServiceTest [Runner: JUnit 5] (5.055 s) - testBuilderPattern 4.624 s + testFormatTenantDataInfo 0.102 s + testSearchByCategory_Mockito 0.143 s + testGetAllTenantData_Mockito 0.019 s + testTenantDataEntity 0.015 s + testGetTenantDataById_Mockito 0.131 s - Was 2/2 Tier 5 -> Now 6/6 Tier 10 - FIXED [] bug)
+│   └── demo15.png (Render Deploy Live - STATUS Deploy succeeded | Live Green Tick - DURATION 2m 50s - DEPLOYED Nov 4 2026 at 1:17:22 AM GMT+5:30 - TRIGGER First Deploy - SOURCE O377dbf - Tomcat started on port 10000 - Started MultiTenantSaasApplication in 95.797 seconds - Your service is live - Available at primary URL https://nine9-multi-tenant-saas.onrender.com - Proof of Production Live - Same as 97 Live 2m35s + 98 Live 2m23s)
 │
 ├── .gitignore (target/ .mvn/ settings/ .classpath .project .factorypath META-INF/ data/ uploads/ *.log)
 ├── CONTRIBUTING.md (Tier 10 GitHub Goal - 12466 chars)
@@ -177,7 +180,7 @@ This is Project 99 of Tier 10 - SCALE - After Recommendation Engine (98), now re
 
 ---
 
-# 📸 Screenshots - 14 Demos - Multi-tenant SaaS Verified - Live on Render 2m38s
+# 📸 Screenshots - 15 Demos - Multi-tenant SaaS Verified - Live on Render 2m 50s
 
 ### Demo 1 – Browser - GET / - Home Live JSON - Multi-tenant SaaS Tier 10 SCALE
 ![Demo1 Home](screenshots/demo1.png)
@@ -249,7 +252,13 @@ This is Project 99 of Tier 10 - SCALE - After Recommendation Engine (98), now re
 
 *Eclipse JUnit - Finished after 5.798 seconds - Runs: 6/6 Errors: 0 Failures: 0 Green Bar - TenantDataServiceTest [Runner: JUnit 5] (5.055 s) - testBuilderPattern 4.624 s + testFormatTenantDataInfo 0.102 s + testSearchByCategory_Mockito 0.143 s + testGetAllTenantData_Mockito 0.019 s + testTenantDataEntity 0.015 s + testGetTenantDataById_Mockito 0.131 s - Was 2/2 Tier 5 -> Now 6/6 Tier 10 - FIXED [] bug with trim() - 5.798s - Same as 98 6.594s*
 
+### Demo 15 – Render - Deploy succeeded Live - DURATION 2m 50s - Your service is live - O377dbf - 95.797s
+![Demo15 Render Live 2m50s](screenshots/demo15.png)
+
+*Render Dashboard - 99-multi-tenant-saas - STATUS Deploy succeeded | Live Green Tick - DURATION 2m 50s - DEPLOYED Nov 4 2026 at 1:17:22 AM GMT+5:30 - TRIGGER First Deploy - SOURCE O377dbf - Tomcat started on port 10000 - Started MultiTenantSaasApplication in 95.797 seconds (process running for 105.62) - Your service is live - Available at primary URL https://nine9-multi-tenant-saas.onrender.com - Initializing Spring DispatcherServlet - Completed initialization in 1 ms - Proof of Production Live - Same as 97 Live 2m35s + 98 Live 2m23s - Tier 10 SCALE 99/102 97% - O377dbf latest fix*
+
 ---
+
 
 # ▶ How to Run - Multi-tenant SaaS Repo
 
